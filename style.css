@@ -35,7 +35,8 @@ h1 {
     font-weight: 700;
     font-size: 52px;
 }
-p{
+
+p {
     font-weight: 400;
 }
 
@@ -54,11 +55,16 @@ p{
     border-radius: 4px;
 }
 
-.formInput:focus{
+.formInput:focus {
     border: 1px solid #000000;
 }
-.formInput:valid{
+
+.formInput:valid {
     border: 1px solid #0B9919;
+}
+
+.formInput:valid {
+    border: 1px solid #F80F0F;
 }
 
 .google {
@@ -80,6 +86,33 @@ p{
     background-clip: text;
 }
 
+.SignUp:hover {
+    width: 66px;
+    height: 33px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    background: linear-gradient(85.8deg, #81365F -15.76%, #CE1949 73.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.SignUp:active {
+    width: 60px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #CE1949;
+}
+
 a {
     color: black;
     text-decoration: underline;
@@ -98,11 +131,15 @@ form input {
 
 }
 
-button {
+.bttn {
     float: right;
     color: #fff;
     font-size: 16px;
-    padding: 12px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -110,4 +147,12 @@ button {
     height: 40px;
     background: linear-gradient(85.8deg, #81365F -15.76%, #CE1949 73.17%);
     border-radius: 4px;
+}
+
+.bttn:active {
+    padding: 8px 24px;
+    gap: 8px;
+    width: 180px;
+    height: 44px;
+    background: #CE1949;
 }
