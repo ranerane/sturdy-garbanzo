@@ -2,23 +2,12 @@
 
 body {
     background: #F2F3F8;
-    padding: 0;
+    padding: 10px;
     margin: 0;
-    width: 1440px;
-    height: 1024px;
     font-family: 'Poppins', sans-serif;
 }
 
 main {
-    /* margin: auto;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%); */
     width: 80%;
     margin: auto;
     display: flex;
@@ -28,7 +17,7 @@ main {
 
 .left {
     padding: 50px;
-    margin: 150px;
+    margin: 10px;
 }
 
 h1 {
@@ -63,7 +52,7 @@ p {
     border: 1px solid #0B9919;
 }
 
-.formInput:valid {
+.formInput:invalid {
     border: 1px solid #F80F0F;
 }
 
@@ -89,16 +78,10 @@ p {
 .SignUp:hover {
     width: 66px;
     height: 33px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 33px;
-    background: linear-gradient(85.8deg, #81365F -15.76%, #CE1949 73.17%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
 }
 
 .SignUp:active {
@@ -116,19 +99,6 @@ p {
 a {
     color: black;
     text-decoration: underline;
-}
-
-form input {
-    width: 45px;
-    height: 18px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-
 }
 
 .bttn {
@@ -155,4 +125,8 @@ form input {
     width: 180px;
     height: 44px;
     background: #CE1949;
+}
+
+#error{
+    color: red;
 }
