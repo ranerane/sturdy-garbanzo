@@ -4,8 +4,9 @@
 I was responsible for;
 >Keeping track of resolutions reached in meetings
 >>Assigning frontend task to developers
->>>Coding the Library page (frontend)
->>>>Coding the Sign in Page with client side validation (frontend)
+>>>Coding the frontend Library page 
+>>>>Coding the frontend Sign in Page with client side validation
+>>>>Wrote the python code that enables user to merge 2 files
 
 
 ## Issues Assigned to me
