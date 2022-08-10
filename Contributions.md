@@ -1,12 +1,11 @@
-### My Individual contributions to my groups project
---Excel_Comp Team_108
+### My Individual contributions to my group(Excel_Comp Team_108) project
 
-I was responsible for;
+--I was responsible for;
 >Keeping track of resolutions reached in meetings
 >>Assigning frontend task to developers
 >>>Coding the frontend Library page 
 >>>>Coding the frontend Sign in Page with client side validation
->>>>Wrote the python code that enables user to merge 2 files
+>>>>>Wrote the python code that enables user to merge 2 files
 
 
 ## Issues Assigned to me
